@@ -1,6 +1,6 @@
 {
   "name": "jcmp-test-env",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "provides a jc3:mp test environment using the jcmp-stubs package",
   "main": "index.js",
   "bin": {
