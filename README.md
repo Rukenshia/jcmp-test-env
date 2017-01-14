@@ -17,3 +17,6 @@ new TestEnvironment('server').initializeEnvironment((k, v) => global[k] = v);
 ```
 
 you can then run your tests like you normally do, i.e. with mocha. you could simply require your whole `main.js` file from your package.
+
+## Example
+You can see the `jcmp-test-env` package live at the [command manager](https://gitlab.nanos.io/jc3mp-packages/command-manager/tree/master/test)
