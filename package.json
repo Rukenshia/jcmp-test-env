@@ -1,0 +1,30 @@
+{
+  "name": "jcmp-test-env",
+  "version": "0.9.1",
+  "description": "provides a jc3:mp test environment using the jcmp-stubs package",
+  "main": "index.js",
+  "bin": {
+    "jcmp-test-env": "./bin/jcmp-test-env.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rukenshia/jcmp-test-env.git"
+  },
+  "keywords": [
+    "jc3mp",
+    "jcmp"
+  ],
+  "author": "Jan Christophersen <jan.c@nanos.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rukenshia/jcmp-test-env/issues"
+  },
+  "homepage": "https://github.com/Rukenshia/jcmp-test-env#readme",
+  "dependencies": {
+    "custom-logger": "^0.3.1",
+    "jcmp-stubs": "^2.6.0"
+  }
+}
